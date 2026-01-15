@@ -23,7 +23,7 @@ local entity = spawner.Create({
 			Enabled = true,
 			Duration = 4
 		},
-		Shatter = false,
+		Shatter = true,
 		Repair = false
 	},
 	Earthquake = {
@@ -31,7 +31,7 @@ local entity = spawner.Create({
 	},
 	CameraShake = {
 		Enabled = true,
-		Range = 50,
+		Range = 1000,
 		Values = {100, 30, 0.1, 0.1} -- Magnitude, Roughness, FadeIn, FadeOut
 	},
 	Movement = {
